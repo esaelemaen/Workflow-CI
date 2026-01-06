@@ -12,7 +12,7 @@ permissions:
   contents: write
  
 env:
-  CSV_URL: "MLproject/Heart_Disease_Prediction_preprocessing/train_pca.csv"
+  CSV_URL: "MLproject/Heart_Disease_Prediction_preprocessing"
   ACTIONS_RUNNER_DEBUG: true
   ACTIONS_STEP_DEBUG: true
  
