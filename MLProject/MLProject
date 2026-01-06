@@ -7,5 +7,5 @@ entry_points:
     parameters:
       c: {type: float, default: 1.0}
       max_iter: {type: int, default: 1000}
-      dataset : {type: string, default: "Heart_Disease_Prediction_preprocessing/train.csv"}
+      dataset : {type: string, default: "Heart_Disease_Prediction_preprocessing"}
     command: "python modelling.py {c} {max_iter} {dataset}"
