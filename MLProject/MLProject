@@ -1,0 +1,11 @@
+name: Workflow-CI_Submision_MSML
+ 
+conda_env: conda.yaml
+ 
+entry_points:
+  main:
+    parameters:
+      c: {type: float, default: 1.0}
+      max_iter: {type: int, default: 1000}
+      dataset : {type: string, default: "\Heart_Disease_Prediction_preprocessing\train.csv"}
+    command: "python modelling.py {c} {max_iter} {dataset}"
